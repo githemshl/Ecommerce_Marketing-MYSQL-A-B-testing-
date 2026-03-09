@@ -303,13 +303,14 @@ CREATE TABLE website_sessions (
 );
 
 -- #####################################################
--- IMPORT ORDER FOR STAGING TABLES:
--- 1. stg_customers
--- 2. stg_email_campaigns
--- 3. stg_marketing_spend
--- 4. stg_email_events
--- 5. stg_transactions
--- 6. stg_website_sessions
+-- INSERT ORDER FOR TABLES:
+-- 1. customers
+-- 2. email_campaigns
+-- 3. marketing_spend
+-- 4. email_events
+-- 5. transactions
+-- 6. website_sessions
+-- 7. channels
 -- 
 -- (Order doesn't matter for staging since no FKs)
 -- #####################################################
